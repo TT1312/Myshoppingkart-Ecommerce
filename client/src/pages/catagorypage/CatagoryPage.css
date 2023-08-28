@@ -1,0 +1,19 @@
+.catagoryPage{
+    display: flex;
+    padding: 30px 50px;
+}
+.leftOfCategoryPage{
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 30px;
+}
+.rightOfCategoryPage{
+    flex: 3;
+}
+
+.required{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+}

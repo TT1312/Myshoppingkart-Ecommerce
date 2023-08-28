@@ -1,0 +1,22 @@
+.pagenotfound{
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.pagenotfound img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+}
+
+.pagenotfound h1{
+    color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

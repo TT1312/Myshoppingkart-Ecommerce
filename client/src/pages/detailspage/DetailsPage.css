@@ -1,0 +1,86 @@
+.detailsPage{
+    padding: 50px 80px;
+    display: flex;
+    gap: 50px;
+}
+.leftDetailPage{
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    width: 150vw;
+}
+.detailsPage .leftDetailPage img{
+    width: 100%;
+    max-height: 800px;
+    object-fit: fill;
+    transition: all  ease 1s;
+}
+
+.detailsPage .leftDetailPage:hover img{
+    scale: 1.2;
+}
+.rightDetailPage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightDetailPage .info{
+    display: flex;
+    flex-direction: column;
+}
+.rightDetailPage .price{
+    color: #2879fe;
+    font-size: 30px;
+    font-weight: 500;
+}
+.rightDetailPage p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.rightDetailPage .quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightDetailPage .quantity button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+} 
+.rightDetailPage .addtocart{
+    background-color: #2879fe;
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    gap: 20px;
+    border: none;
+}
+.rightDetailPage .list{
+    display: flex;
+    align-items:center;
+    
+}
+
+.rightDetailPage .wishList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10vw;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.info{
+    color: gray;
+}
+ 

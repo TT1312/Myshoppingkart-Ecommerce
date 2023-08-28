@@ -1,0 +1,29 @@
+.featuredProduct{
+    margin: 100px 200px;
+}
+.featuredProducts .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
+
+.top h1{
+    margin-left: 9vw;
+    font-weight: bold;
+    color: black;
+    flex: 2;
+}
+.top p{
+    flex: 3;
+    color: gray;
+    padding-right: 50px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}

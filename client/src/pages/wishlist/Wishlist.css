@@ -1,0 +1,32 @@
+.wishlist{
+    top: 80px;
+    right: 20px;
+    position: absolute;
+    z-index: 999;
+    background-color: rgb(231, 229, 229);
+    padding: 20px;
+}
+.wishlist h1{
+    font-weight: 400;
+    color: black(81, 79, 79);
+}
+.wishlist .items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.wishlist .items img{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.wishlist .items .details h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.wishlist .items .details p{
+    margin: 10px;
+    font-size: 14px;
+}
